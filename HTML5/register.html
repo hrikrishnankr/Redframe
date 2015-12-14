@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<script type="text/javascript" src="../Java script/register.js"></script>
+	<link rel="stylesheet" type="text/css" href="../CSS3/commonstyle.css">
+	<link rel="stylesheet" type="text/css" href="../CSS3/registerstyle.css">
+</head>
+<body>
+	<!--common header--> 
+	<div class="menu_bar">
+		<div><img src="../images/logo1.png"></div>
+		<div class="home" onClick="colorChange(this)"><a href="index.html">Home</a></div>
+		<div class="register"><a href="register.html">Register</a></div>
+		<div class="login"><a href="login.html">Login</a></div>
+	</div>
+
+
+    <!--dynamic body starts here-->
+	<div class="registration_form">
+		<div id="flash"></div><br><br>
+		<div class="form_background">
+			<br>
+			<form>
+				<fieldset>
+					<legend>
+						Register Here:
+					</legend>
+					<input type="text" name="fname" id="fname" placeholder="first name" onkeypress="document.getElementById('flash').innerHTML='';" required><br><br>
+					<input type="text" name="lname" id="lname" placeholder="Last name" onkeypress="document.getElementById('flash').innerHTML='';" required><br><br>
+					<input type="text" name="uname" id="uname" placeholder="Username" onkeypress="document.getElementById('flash').innerHTML='';" required><br><br>
+					<input type="password" name="pass" id="pass" placeholder="Password" onkeypress="document.getElementById('flash').innerHTML='';" required><br><br>
+					<select>
+						<option selected="selected" style="opacity:0.5;">Gender</option>
+						<option >Male</option>
+						<option>Female</option>
+					</select><br><br> 	
+					<input type="email" name="email" id="email" placeholder="Email" onkeypress="document.getElementById('flash').innerHTML='';" required><br><br>
+					<input	type="submit" name="Register" id="submit" value="Register" onClick="validate()">
+				</fieldset>
+			</form>
+		</div>	
+	</div>
+	<!--dynamic body ends here-->
+
+    <!--common footer-->
+	<footer>
+		<div class="footer_bar">
+			&copy Copyright 2015. All Rights Reserved.
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+	font-family: "Lato",sans-serif;
+}
+.registration_form{
+	margin-left: 30%;
+	margin-top: 12%;
+	height:25%;
+	width: 35%;
+	box-shadow: 0 20px 45px -2px #888888;
+}
+
+#submit{
+	margin-left: 10%;
+	background-color: black;
+	opacity: 0.8;
+	border-radius: 4px;
+	width: 77%;
+}
+
+.registration_form #submit:hover{
+	color:white;
+}
+
+.registration_form .form_background input,.registration_form .form_background select{
+	margin-left: 10%;
+	width: 77%;
+	background-color:rgba(0,0,0,0);
+	border:none;
+	border-bottom: 1px solid black;
+}
+
+#flash{
+	color:white;
+	font-size: 13px;
+	background-color: #cc0000;
+	border-radius: 3px;
+}
+legend{
+	font-size: 24px;
+}

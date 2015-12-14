@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="../CSS3/commonstyle.css">
+	<link rel="stylesheet" type="text/css" href="../CSS3/indexstyle.css">
+	<link rel="stylesheet" type="text/css" href="../CSS3/registerstyle.css">
+	<script type="text/javascript" src="../Java script/login.js"></script>
+</head>
+<body>
+	<div class="menu_bar">
+		<div><img src="../images/logo1.png"></div>
+		<div class="home"><a href="index.html">Home</a></div>
+		<div class="register"><a href="register.html">Register</a></div>
+		<div class="login"><a href="login.html">Login</a></div>
+	</div>
+
+	<div class="content">
+			<div class="registration_form" style="width:40%">
+			<div id="flash"></div><br><br>
+			<div class="form_background">
+				<form>
+					<fieldset>
+						<legend>
+							Login Here:
+						</legend>
+						<input type="text" name="uname" id="uname" placeholder="Username" onkeypress="document.getElementById('flash').innerHTML='';" required><br><br>
+						<input type="password" name="pass" id="pass" placeholder="Password" onkeypress="document.getElementById('flash').innerHTML='';" required><br><br> 	
+						<input	type="submit" name="Login" id="submit" value="Login" onClick="loginValidate()">
+					</fieldset>
+				</form>
+			</div>
+			</div>	
+	</div>
+
+	<footer>
+		<div class="footer_bar">
+			&copy Copyright 2015. All Rights Reserved.
+		</div>
+	</footer>
+
+</body>
+</html>
