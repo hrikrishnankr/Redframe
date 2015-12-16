@@ -1,0 +1,49 @@
+body{
+	font-family: "Lato",sans-serif;
+}
+.registration_form{
+	margin-left: 30%;
+	margin-top: 12%;
+	height:25%;
+	width: 35%;
+	box-shadow: 0 20px 45px -2px #888888;
+}
+
+#submit{
+	margin-left: 52%;
+	color:red;
+	border: 2px solid red;
+	background-color: white;
+	border-radius: 4px;
+	width: 35%;
+	height: 35px;
+}
+
+.registration_form #submit:hover{
+	color:red;
+	border: 2px solid red;
+	background-color: white;
+}
+
+.registration_form .form_background input,.registration_form .form_background select{
+	margin-left: 10%;
+	width: 77%;
+	background-color:rgba(0,0,0,0);
+	border:none;
+	border-bottom: 1px solid black;
+}
+
+#flash_fname, #flash_lname, #flash_uname, #flash_pass, #flash_gender, #flash_email{
+	color:red;
+	font-size:13px;
+	margin-left: 10%;
+}
+
+#succ{
+	color:white;
+	background-color: black;
+}
+
+legend{
+	font-size: 24px;
+}

@@ -1,0 +1,68 @@
+body{
+	font-family: "Lato",sans-serif;
+}
+.content{
+	
+}
+
+.poster1{
+	margin-left: 11.5%;
+	margin-top: 107px;
+	margin-right: 12.3%;
+	background-color:rgba(0, 0, 0, 0.75);
+	color:white;
+	width: 70%;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.sentence1{
+	padding: 6px;
+	font-size: 100%;
+	font-weight: 300;
+	line-height: 63.8px;
+	height: 70px; 
+	text-shadow: rgba(0, 0, 0, 0.85) -2px 3px 1px;
+}
+
+.poster2{
+	margin-left: 27%;
+	margin-top: 107px;
+	margin-right: 27%;
+	background-color:rgba(0, 0, 0, 0.75);
+	color:white;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 16px;
+	width: 40%;
+}
+
+.sentence2{
+	padding: 6px;
+	font-size: 100%;
+	font-weight: 300;
+	line-height: 50px;
+	text-shadow: rgba(0, 0, 0, 0.85) -2px 3px 1px;
+	height: 255px;
+}
+
+.get_started{
+	position: relative;
+	bottom: 4px;
+}
+
+.btn_get_started{
+	width:35%;
+	height: 35px;
+	background-color: red;
+	color:white;
+	border-color: red;
+	border-radius: 4px;
+	border:none;
+}
+
+.btn_get_started:hover{
+	color: red;
+	background-color: rgba(0,0,0,0);
+	border: 2px solid red;
+}
