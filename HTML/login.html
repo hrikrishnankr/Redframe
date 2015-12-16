@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="shortcut icon" href="../images/index.jpeg">
+	<link rel="stylesheet" type="text/css" href="../CSS/commonstyle.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/indexstyle.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/registerstyle.css">
+	<script type="text/javascript" src="../Java script/login.js"></script>
+</head>
+<body>
+	<div class="menu_bar">
+		<div><img src="../images/logo1.png"></div>
+		<div class="home"><a href="index.html">Home</a></div>
+		<div class="register"><a href="register.html">Register</a></div>
+		<div class="login"><a href="login.html">Login</a></div>
+	</div>
+	<br><br><br>
+	<div class="content">
+			<div class="registration_form" style="width:40%">
+			<div id="flash"></div><br><br>
+			<div class="form_background">
+				<form onsubmit='return loginValidate();'>
+					<fieldset>
+						<legend>
+							Login Here:
+						</legend>
+						<input type="text" name="uname" id="uname" placeholder="Username" onkeypress="document.getElementById('flash_uname').innerHTML='';"><br>
+						<div id="flash_uname"/></div><br>
+
+						<input type="password" name="pass" id="pass" placeholder="Password" onkeypress="document.getElementById('flash_pass').innerHTML='';"/><br>
+						<div id="flash_pass"></div><br>	
+
+						<input type="submit" name="Login" id="submit" value="Login" onClick="">
+					</fieldset>
+				</form>
+			</div>
+			</div>	
+	</div>
+
+	<footer>
+		<div class="footer_bar">
+			&copy Copyright 2015. All Rights Reserved.
+		</div>
+	</footer>
+
+</body>
+</html>
