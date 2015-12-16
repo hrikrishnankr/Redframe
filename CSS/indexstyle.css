@@ -45,3 +45,24 @@ body{
 	text-shadow: rgba(0, 0, 0, 0.85) -2px 3px 1px;
 	height: 255px;
 }
+
+.get_started{
+	position: relative;
+	bottom: 4px;
+}
+
+.btn_get_started{
+	width:35%;
+	height: 35px;
+	background-color: red;
+	color:white;
+	border-color: red;
+	border-radius: 4px;
+	border:none;
+}
+
+.btn_get_started:hover{
+	color: red;
+	background-color: rgba(0,0,0,0);
+	border: 2px solid red;
+}

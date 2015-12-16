@@ -2,9 +2,10 @@
 <html>
 <head>
 	<title>Login</title>
-	<link rel="stylesheet" type="text/css" href="../CSS3/commonstyle.css">
-	<link rel="stylesheet" type="text/css" href="../CSS3/indexstyle.css">
-	<link rel="stylesheet" type="text/css" href="../CSS3/registerstyle.css">
+	<link rel="shortcut icon" href="../images/index.jpeg">
+	<link rel="stylesheet" type="text/css" href="../CSS/commonstyle.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/indexstyle.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/registerstyle.css">
 	<script type="text/javascript" src="../Java script/login.js"></script>
 </head>
 <body>
@@ -14,19 +15,23 @@
 		<div class="register"><a href="register.html">Register</a></div>
 		<div class="login"><a href="login.html">Login</a></div>
 	</div>
-
+	<br><br><br>
 	<div class="content">
 			<div class="registration_form" style="width:40%">
 			<div id="flash"></div><br><br>
 			<div class="form_background">
-				<form>
+				<form onsubmit='return loginValidate();'>
 					<fieldset>
 						<legend>
 							Login Here:
 						</legend>
-						<input type="text" name="uname" id="uname" placeholder="Username" onkeypress="document.getElementById('flash').innerHTML='';" required><br><br>
-						<input type="password" name="pass" id="pass" placeholder="Password" onkeypress="document.getElementById('flash').innerHTML='';" required><br><br> 	
-						<input	type="submit" name="Login" id="submit" value="Login" onClick="loginValidate()">
+						<input type="text" name="uname" id="uname" placeholder="Username" onkeypress="document.getElementById('flash_uname').innerHTML='';"><br>
+						<div id="flash_uname"/></div><br>
+
+						<input type="password" name="pass" id="pass" placeholder="Password" onkeypress="document.getElementById('flash_pass').innerHTML='';"/><br>
+						<div id="flash_pass"></div><br>	
+
+						<input type="submit" name="Login" id="submit" value="Login" onClick="">
 					</fieldset>
 				</form>
 			</div>
