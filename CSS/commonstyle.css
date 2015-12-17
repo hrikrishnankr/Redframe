@@ -18,6 +18,12 @@ body{
 	padding-left: 6%;
 }
 
+.menu_bar .logo{
+	position: relative;
+	bottom: 12px;
+}
+
+
 .menu_bar div a{
 	text-decoration: none;
 	position: relative;
